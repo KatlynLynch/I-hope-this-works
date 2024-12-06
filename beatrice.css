@@ -1,0 +1,102 @@
+body {
+  background: lightblue;
+  margin: 30;
+  padding: 10;
+}
+
+h1 {
+  color: purple;
+  display: box;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin:25;
+  text-transform: capitalize;
+}
+p {
+  color: hotpink;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+h2{
+  color: purple;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+dd {
+  color: purple;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 200;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 30px, 30px, 30px, 30px;
+  
+}
+
+h3{
+  color: purple;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: hotpink;
+  display: listitem;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  text-transform: capitalize;
+}
+
+/* Table */
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 50%;
+}
+
+thead td{
+  background: rgb(157, 252, 230);
+  color: purple;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: rgb(217, 255, 246);
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  color: hotpink;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+  font-size: 18px;
+}
