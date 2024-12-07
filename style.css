@@ -4,14 +4,14 @@ body {
   padding: 10;
   text-align: center;
   max-width: 100%;
+  margin-left: 25%;
   overflow-x: hidden;
+  position: absolute;
 }
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 h1 {
   color: purple;
-  display: box;
+  display: block;
   font-family: 'Perpetua', sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -34,6 +34,13 @@ h2{
   font-size: 25px;
   font-weight: 500;
   letter-spacing: 2px;
+}
+
+img{
+  padding: inherit;
+  margin:auto;
+  width: 300px;
+  display: block;
 }
 
 dd {
@@ -65,7 +72,7 @@ h3 {
 
 button {
   border: none;
-  color: rgb(217, 255, 246);
+  background-color: rgb(217, 255, 246);
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
@@ -74,7 +81,6 @@ button {
   margin: 4px 2px;
   cursor: pointer;
 }
-button{background-color: rgb(217, 255, 246);}
 
 #need_to_know{
   color: purple;
@@ -84,7 +90,7 @@ button{background-color: rgb(217, 255, 246);}
 }
 
 #need_to_know_box{
-  display: inline-block;
+  display: block;
   background: rgb(217, 255, 246);
   width: 500px;
   height: 590px;
@@ -94,13 +100,13 @@ button{background-color: rgb(217, 255, 246);}
 
 
 #facts_box{
-display: inline-block;
+display: block;
 background: rgb(217, 255, 246);
 width: 300px;
 height: 210px;
-border: 28px solid rgb(217, 255, 246);
+border: 30px solid rgb(217, 255, 246);
 text-align: center;
-margin-top: 20px;
+margin-left: 18%;
 }
 
 p{
@@ -118,7 +124,7 @@ line-height: 1.7;
 }
 
 #look_out_box{
-  display: inline-block;
+  display: block;
   background: rgb(217, 255, 246);
   width: 500px;
   height: 720px;
@@ -127,7 +133,7 @@ line-height: 1.7;
 }
 
 #allergies_box{
-   display: inline-block;
+   display: block;
   background: rgb(217, 255, 246);
   width: 500px;
   height: 250px;
@@ -138,6 +144,7 @@ line-height: 1.7;
 ul {
   list-style-type: "♡";
   list-style-position: inside;
+  display: block;
   padding: 1;
   margin-left: 0;
   text-align: left;
@@ -146,11 +153,12 @@ ul {
 li {
   color: hotpink;
   display: listitem;
+  text-align: center;
   font-family: 'Oxygen', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 2px;
-  margin: 0;
+  margin-left: -35px;
   padding: 3px;
   text-transform: capitalize;
   line-height: 1;
@@ -162,9 +170,9 @@ table {
   height: 40%;
   left: 10%;
   margin: 20px auto;
-  overflow-y: scroll;
+  overflow-y: visible;
   position: static;
-  width: 50%;
+  width: 100%;
 }
 
 thead td{
