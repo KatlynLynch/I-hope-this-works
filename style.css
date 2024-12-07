@@ -7,26 +7,27 @@ body {
 h1 {
   color: purple;
   display: box;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Perpetua', sans-serif;
   font-weight: 700;
   font-size: 40px;
   letter-spacing: 4px;
   margin:25;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
-p {
+#best {
   color: hotpink;
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
+  text-transform: capitalize;
 }
 
 h2{
   color: purple;
   font-family: 'Oxygen', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 500;
   letter-spacing: 2px;
 }
 
@@ -40,17 +41,101 @@ dd {
   
 }
 
-h3{
+h3 {
   color: purple;
   font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 3px;
+  text-transform: capitalize;
+  text-align: center;
+}
+#nav_text{
+  color: hotpink;
+  font-family: 'Oxygen', sans-serif;
+  text-transform: capitalize;
   font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 2px;
+}
+
+button {
+  border: none;
+  color: rgb(217, 255, 246);
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button{background-color: rgb(217, 255, 246);}
+
+#need_to_know{
+  color: purple;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#need_to_know_box{
+  display: inline-block;
+  background: rgb(217, 255, 246);
+  width: 500px;
+  height: 590px;
+  border: 30px solid rgb(217, 255, 246);
+  margin-bottom: 20px 0;
+}
+
+
+#facts_box{
+display: inline-block;
+background: rgb(217, 255, 246);
+width: 300px;
+height: 210px;
+border: 28px solid rgb(217, 255, 246);
+text-align: center;
+margin-top: 20px;
+}
+
+p{
+font-family: 'Oxygen', sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 1.7;
+}
+
+#look_out{
+  color: purple;
+  font-family:  'Oxygen', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#look_out_box{
+  display: inline-block;
+  background: rgb(217, 255, 246);
+  width: 500px;
+  height: 720px;
+  border: 30px solid rgb(217, 255, 246);
+  padding-top: 1;
+}
+
+#allergies_box{
+   display: inline-block;
+  background: rgb(217, 255, 246);
+  width: 500px;
+  height: 250px;
+  border: 30px solid rgb(217, 255, 246);
+  padding-top: 1;
 }
 
 ul {
-  padding: 0;
-  margin: 0;
+  list-style-type: "♡";
+  list-style-position: inside;
+  padding: 1;
+  margin-left: 0;
+  text-align: left;
 }
 
 li {
@@ -61,8 +146,9 @@ li {
   font-size: 16px;
   letter-spacing: 2px;
   margin: 0;
-  padding: 10px 10px 10px 10px;
+  padding: 3px;
   text-transform: capitalize;
+  line-height: 1;
 }
 
 /* Table */
@@ -80,7 +166,7 @@ thead td{
   background: rgb(157, 252, 230);
   color: purple;
   font-family: 'Oxygen', sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -93,7 +179,7 @@ tr {
 
 th, td {
   color: hotpink;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-weight: 400;
   padding: 20px;
   text-align: left;
