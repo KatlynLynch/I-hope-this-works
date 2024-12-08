@@ -5,7 +5,8 @@ body {
   margin: 30;
   padding: 10;
   text-align: center;
-  max-width: 100%;
+  align: center; /*I just added this*/
+  max-width: 100%; /*changing this from 80% to 100% seems to have fixed the problem on web but not mobile*/
   overflow-x: hidden;
   /*position: absolute;*/
 }
