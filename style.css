@@ -12,8 +12,9 @@ body {
 
 .container{
   display: block; /*instead of inline-block?*/
-  margin: auto;
-  width: 700;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  max-width: fit-content;
 }
 
 h1 {
