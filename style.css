@@ -14,8 +14,8 @@ body {
 .container{
   display: inline-block;
   margin-left: 0 auto;
-  margin-right: 0 auto; /*just changed from 20 to 0 and width from 700px to 75%*/
-  width: 75%;
+  margin-right: 0 auto; /*just changed from 20 to 0*/
+  width: 600px;
 }
 
 h1 {
