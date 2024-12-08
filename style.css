@@ -82,7 +82,7 @@ button {
   border: none;
   background-color: rgb(217, 255, 246);
   padding: 10px 22px;
-  /*text-align: center; I'm just seeing if display:block is better than inline*/
+  text-align: center;
   text-decoration: none;
   display: block;
   font-size: 16px;
