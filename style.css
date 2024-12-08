@@ -11,7 +11,7 @@ body {
 }
 
 .container{
-  display: block; /*instead of inline-block?*/
+  display: inline-block; /*from block to inline*/
   margin-left: 0 auto;
   margin-right: 0 auto;
   max-width: fit-content;
