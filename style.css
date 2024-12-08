@@ -9,6 +9,11 @@ body {
   position: absolute;
 }
 
+.container{
+  display: inline-block;
+  margin: 0 auto;
+}
+
 h1 {
   color: purple;
   display: block;
